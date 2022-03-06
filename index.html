@@ -1,28 +1,58 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Hehey</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="./styles.css">
+    <audio src="./scream_mus.mp3"></audio>
+    <title>Хэликоптер</title>
 </head>
+
 <body>
-    <div class="container">
-        <span class="live">0</span>
-        <span class="hungry">0</span>
-        <span class="money">0</span>
-        <span class="mood">0</span>
-    </div>
-    <div class="container">
-        <button class="new_day btn">Начать новый день</button>
+    <button class="game">начать игру</button>
+
+    <div class="body">
+        <img class="scream" src="./Screenshot_2.png" alt="Скример">
+        <div class="see_dot">Cмотри непрерывно на точку 10 секунд</div>
+        <div class="helicopter">
+            <div class="this_is_dot">
+                <p class="dot">O</p>
+            </div>
+            <div class="this_is_dot2">
+                <p class="dot">O</p>
+            </div>
+            <div class="this_is_dot3">
+                <p class="dot">O</p>
+            </div>
+            <div class="this_is_dot4">
+                <p class="dot">O</p>
+            </div>
+            <div class="this_is_dot5">
+                <p class="dot">O</p>
+            </div>
+            <div class="this_is_dot6">
+                <p class="dot">O</p>
+            </div>
+            <div class="this_is_dot7">
+                <p class="dot">O</p>
+            </div>
+            <div class="this_is_dot8">
+                <p class="dot">O</p>
+            </div>
+
+        </div>
+        <div class="not_dot">
+            .
+        </div>
+
+
 
     </div>
-    <div class="container">
-        <p class="info"></p>
-    </div>
-
-<script src="./main.js"></script>
+    <script src="./main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,112 @@
+.body {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.game{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+}
+
+.scream {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.scream_active {
+    display: block;
+}
+
+.see_dot {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.helicopter {
+    margin: 0 auto;
+    position: relative;
+    width: 950px;
+    height: 100vh;
+    transition: 0.5s;
+}
+
+.helicopter_active {
+    transform: rotate(360deg);
+}
+
+.not_dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* transform: translate(-50%, -50%); */
+}
+
+.this_is_dot, .this_is_dot1, .this_is_dot2, .this_is_dot3, .this_is_dot4, .this_is_dot5, .this_is_dot6, .this_is_dot7, .this_is_dot8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s;
+}
+
+.dot_active {
+    top: 35%;
+    left: 37%;
+    color: chartreuse;
+}
+
+.dot_active2 {
+    top: 28%;
+    color: blue;
+}
+
+.dot_active3 {
+    left: 30%;
+    color: crimson;
+}
+
+.dot_active4 {
+    top: 72%;
+    color: darkblue;
+}
+
+.dot_active5 {
+    left: 70%;
+    color: darkgreen;
+}
+
+.dot_active6 {
+    top: 66%;
+    left: 65%;
+    color: darkviolet;
+}
+
+.dot_active7 {
+    top: 35%;
+    left: 65%;
+    color: hotpink;
+}
+
+.dot_active8 {
+    top: 66%;
+    left: 36%;
+    color: aquamarine;
+}
